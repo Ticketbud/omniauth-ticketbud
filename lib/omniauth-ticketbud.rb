@@ -1,2 +1,2 @@
-require 'omniauth/ticketbud/version'
+require 'omniauth/version'
 require 'omniauth/strategies/ticketbud'
