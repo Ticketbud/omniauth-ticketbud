@@ -3,7 +3,7 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'ticketbud/version'
 
 Gem::Specification.new do |s|
-  s.name     = 'omniauth-facebook'
+  s.name     = 'omniauth-ticketbud'
   s.version  = OmniAuth::Ticketbud::VERSION
   s.authors  = ['Brandon Harris']
   s.email    = ['development@ticketbud.com']
