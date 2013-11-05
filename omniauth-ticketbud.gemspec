@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path('../lib', __FILE__)
-require 'ticketbud/version'
+require 'omniauth/version'
 
 Gem::Specification.new do |s|
   s.name     = 'omniauth-ticketbud'
@@ -20,4 +20,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'omniauth-oauth2', '~> 1.1'
   s.add_development_dependency 'rspec', '~> 2.7.0'
   s.add_development_dependency 'rake'
+  s.add_development_dependency 'webmock'
+  s.add_development_dependency 'rack-test'
 end
